@@ -121,7 +121,8 @@ class LstmNode:
         self.param.bi_diff += di_input
         self.param.bf_diff += df_input       
         self.param.bo_diff += do_input
-        self.param.bg_diff += dg_input       
+        self.param.bg_diff += dg_input  
+        self.param.big_diff+=dg_input1
 
         # compute bottom diff
         dxc = np.zeros_like(self.xc)
